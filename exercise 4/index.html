@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Gradient-ka Hero Section-ka oo ku daynaya sawirka */
+        .hero-gradient {
+            background: linear-gradient(135deg, #4c46e3, #8a2be2); /* Buluug madow ilaa guduud */
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800">
+
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#" class="text-lg font-bold text-gray-800">CompanyLogo</a>
+                
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-600 hover:text-indigo-600 transition duration-150">Features</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-indigo-600 transition duration-150">Testimonials</a>
+                    <a href="#pricing" class="text-gray-600 hover:text-indigo-600 transition duration-150">Pricing</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-150">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-gradient text-white pt-24 pb-32">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h1 class="text-5xl font-extrabold mb-4 leading-tight">
+                Transform Your Business
+            </h1>
+            <p class="text-xl opacity-90 mb-8">
+                Elevate your online presence with our cutting-edge solutions.
+            </p>
+            <a href="#" class="inline-block bg-white text-indigo-700 font-semibold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 shadow-lg">
+                Get Started
+            </a>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-12">Why Choose Us</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-md text-left transition duration-300 hover:shadow-xl">
+                    <div class="text-indigo-600 mb-3 text-3xl">⚡</div>
+                    <h3 class="text-xl font-semibold mb-2">Lightning Fast</h3>
+                    <p class="text-gray-600 text-sm">Experience blazing fast load times for an exceptional local initiative.</p>
+                </div>
+                
+                <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-md text-left transition duration-300 hover:shadow-xl">
+                    <div class="text-indigo-600 mb-3 text-3xl">🔒</div>
+                    <h3 class="text-xl font-semibold mb-2">Secure</h3>
+                    <p class="text-gray-600 text-sm">Your data is protected with enterprise-grade security.</p>
+                </div>
+                
+                <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-md text-left transition duration-300 hover:shadow-xl">
+                    <div class="text-indigo-600 mb-3 text-3xl">💎</div>
+                    <h3 class="text-xl font-semibold mb-2">Premium Quality</h3>
+                    <p class="text-gray-600 text-sm">We provide quality that sets us apart from the competitors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-12">What Our Clients Say</h2>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-8">
+                
+                <div class="p-6 bg-white rounded-lg shadow-md max-w-sm border-t-4 border-indigo-500 text-left">
+                    <blockquote class="italic text-gray-700 mb-4">
+                        "The best team! Awesome work! The BoB brand loves the support. Thank you."
+                    </blockquote>
+                    <div class="flex items-center">
+                        <div class="h-10 w-10 rounded-full bg-gray-300 mr-3"></div> <div>
+                            <p class="font-semibold text-sm">Sobzy Abdirsak</p>
+                            <p class="text-xs text-gray-500">CEO, BoB brand</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="p-6 bg-white rounded-lg shadow-md max-w-sm border-t-4 border-indigo-500 text-left">
+                    <blockquote class="italic text-gray-700 mb-4">
+                        "Outstanding service and support. They truly understand our needs."
+                    </blockquote>
+                    <div class="flex items-center">
+                        <div class="h-10 w-10 rounded-full bg-gray-300 mr-3"></div> <div>
+                            <p class="font-semibold text-sm">Sohayb Abdirsak</p>
+                            <p class="text-xs text-gray-500">Director, Design Studio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Simple, Transparent Pricing</h2>
+            <p class="text-gray-600 mb-12">No hidden fees, just great value.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="p-8 border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold mb-1">Starter</h3>
+                    <p class="text-4xl font-extrabold text-indigo-600 mb-4">$29<span class="text-xl font-normal text-gray-500">/mo</span></p>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> All Key Features</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 5 Projects</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Basic Support</li>
+                    </ul>
+                    <button class="w-full py-3 bg-indigo-500 text-white font-semibold rounded-lg hover:bg-indigo-600 transition duration-300">
+                        Get Started
+                    </button>
+                </div>
+
+                <div class="p-8 border-4 border-indigo-600 rounded-xl shadow-2xl bg-white relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Most Popular</div>
+                    <h3 class="text-2xl font-bold mb-1">Professional</h3>
+                    <p class="text-5xl font-extrabold text-indigo-700 mb-4">$99<span class="text-xl font-normal text-gray-500">/mo</span></p>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> **All Features**</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Unlimited Projects</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Priority Support</li>
+                    </ul>
+                    <button class="w-full py-3 bg-indigo-700 text-white font-semibold rounded-lg hover:bg-indigo-800 transition duration-300">
+                        See Detailed
+                    </button>
+                </div>
+                
+                <div class="p-8 border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold mb-1">Enterprise Plus</h3>
+                    <p class="text-4xl font-extrabold text-indigo-600 mb-4">$299<span class="text-xl font-normal text-gray-500">/mo</span></p>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Custom Features</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Dedicated Support</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> SLA Agreement</li>
+                    </ul>
+                    <button class="w-full py-3 bg-indigo-500 text-white font-semibold rounded-lg hover:bg-indigo-600 transition duration-300">
+                        Contact Sales
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
+            
+            <form action="#" method="POST" class="space-y-6">
+                
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:ring-indigo-500 focus:border-indigo-500" placeholder="John Doe">
+                </div>
+                
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:ring-indigo-500 focus:border-indigo-500" placeholder="you@example.com">
+                </div>
+                
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:ring-indigo-500 focus:border-indigo-500" placeholder="How can we help you?"></textarea>
+                </div>
+                
+                <div>
+                    <button type="submit" class="w-full py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition duration-300 shadow-md">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-900 text-white mt-12">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 border-b border-gray-700 pb-8">
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">CompanyLogo</h4>
+                    <p class="text-sm text-gray-400">Transform your business with our cutting-edge solutions.</p>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Quick Links</h5>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#features" class="hover:text-indigo-400">Features</a></li>
+                        <li><a href="#testimonials" class="hover:text-indigo-400">Testimonials</a></li>
+                        <li><a href="#pricing" class="hover:text-indigo-400">Pricing</a></li>
+                        <li><a href="#contact" class="hover:text-indigo-400">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Legal</h5>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-indigo-400">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-indigo-400">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Connect</h5>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-indigo-400">Twitter</a></li>
+                        <li><a href="#" class="hover:text-indigo-400">LinkedIn</a></li>
+                        <li><a href="#" class="hover:text-indigo-400">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center text-gray-500 text-sm">
+                &copy; 2024 CompanyLogo. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Grid Layout Challenge</title>
+</head>
+
+<body class="bg-gray-100 py-10 flex justify-center">
+
+  <div class="grid grid-cols-3 gap-6 w-11/12 max-w-5xl">
+
+    <!-- 1st ROW – FULL WIDTH (span 3 columns) -->
+    <div class="col-span-3 bg-blue-600 text-white p-6 rounded-xl shadow">
+      <h2 class="text-xl font-semibold">Featured Content</h2>
+      <p>This spans across all three columns</p>
+    </div>
+
+    <!-- 2nd ROW – 2 COLS + 1 COL -->
+    <div class="col-span-2 bg-green-500 text-white p-6 rounded-xl shadow">
+      <h2 class="font-semibold">Left Section</h2>
+      <p>Takes up 2 columns</p>
+    </div>
+
+    <div class="col-span-1 bg-green-500 text-white p-6 rounded-xl shadow">
+      <h2 class="font-semibold">Right Section</h2>
+      <p>Takes 1 column</p>
+    </div>
+
+    <!-- 3rd ROW – 3 EQUAL COLUMNS -->
+    <div class="bg-purple-500 text-white p-6 rounded-xl shadow">
+      <h2 class="font-semibold">Column 1</h2>
+      <p>Equal width</p>
+    </div>
+
+    <div class="bg-purple-500 text-white p-6 rounded-xl shadow">
+      <h2 class="font-semibold">Column 2</h2>
+      <p>Equal width</p>
+    </div>
+
+    <div class="bg-purple-500 text-white p-6 rounded-xl shadow">
+      <h2 class="font-semibold">Column 3</h2>
+      <p>Equal width</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
